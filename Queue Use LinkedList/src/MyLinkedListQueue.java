@@ -2,10 +2,11 @@ public class MyLinkedListQueue {
     private Node head;
     private Node tail;
 
-    public MyLinkedListQueue(){
-        this.head = head;
-        this.tail = tail;
-    }
+//    public MyLinkedListQueue(){
+//        this.head = head;
+//        this.tail = tail;
+//    }
+
     public void enqueue(int key){
         Node temp = new Node(key);
         if (this.tail == null){

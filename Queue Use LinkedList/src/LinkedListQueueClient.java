@@ -5,7 +5,6 @@ public class LinkedListQueueClient {
         MyLinkedListQueue queue = new MyLinkedListQueue();
         queue.enqueue(10);
         queue.enqueue(20);
-
         System.out.println(queue.dequeue().key);
     }
 }
